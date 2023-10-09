@@ -6,7 +6,6 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import Skills from "./components/Skills";
 import About from "./components/About";
-import Header from "./components/Header.jsx";
 const router = createHashRouter([
   {
     path: "/",
