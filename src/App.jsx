@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="dark:bg-gray-900 bg-center">
       <Header />
-      <div className="py-12">
+      <div>
         <Content />
       </div>
       <Footer />

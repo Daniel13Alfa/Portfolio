@@ -5,7 +5,6 @@ const Skills = () => {
   return (
     <div className="dark:bg-gray-900 bg-center">
       <Header />
-      <h1>Hi this is Skills</h1>
     </div>
   );
 };
