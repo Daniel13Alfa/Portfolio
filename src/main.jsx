@@ -4,20 +4,20 @@ import App from "./App.jsx";
 import "./index.css";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 
-import Skills from "./components/Skills";
-import About from "./components/About";
+import Experience from "./components/Experience.jsx";
+import Contact from "./components/Contact.jsx";
 const router = createHashRouter([
   {
     path: "/",
     element: <App />,
   },
   {
-    path: "/about",
-    element: <About />,
+    path: "/experience",
+    element: <Experience />,
   },
   {
-    path: "/skills",
-    element: <Skills />,
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
