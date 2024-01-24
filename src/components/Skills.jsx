@@ -18,12 +18,12 @@ import {
 
 const Skills = () => {
   return (
-    <div className="dark:bg-gray-900">
+    <div className="bg-black">
       <p className="text-center text-5xl">SKILLS</p>
-      <div className="CardInfo w-12/12 dark:bg-gray-900 mt-8 rounded-xl">
+      <div className="CardInfo w-12/12 bg-black mt-8 rounded-xl">
         <div className="flex justify-between items-center pl-10 pr-10">
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faJava} />
               </p>
@@ -32,8 +32,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faJs} />
               </p>
@@ -42,8 +42,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faPython} />
               </p>
@@ -52,16 +52,16 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">C++</p>
               <h5 className="text-center mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 C++
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faReact} />
               </p>
@@ -70,8 +70,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faCss3Alt} />
               </p>
@@ -82,10 +82,10 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="CardInfo w-12/12 dark:bg-gray-900 mt-8 rounded-xl">
+      <div className="CardInfo w-12/12 bg-black mt-8 rounded-xl">
         <div className="flex justify-between items-center pl-10 pr-10">
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faHtml5} />
               </p>
@@ -94,8 +94,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faAngular} />
               </p>
@@ -104,8 +104,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faNode} />
               </p>
@@ -114,8 +114,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
               </p>
@@ -124,8 +124,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
               </p>
@@ -134,8 +134,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
               </p>
@@ -146,10 +146,10 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="CardInfo w-12/12 dark:bg-gray-900 mt-8 rounded-xl">
+      <div className="CardInfo w-12/12 bg-black mt-8 rounded-xl">
         <div className="flex justify-between items-center pl-10 pr-10">
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faGithub} />
               </p>
@@ -158,8 +158,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faGitlab} />
               </p>
@@ -168,8 +168,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faJira} />
               </p>
@@ -178,8 +178,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
               </p>
@@ -188,8 +188,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
               </p>
@@ -198,8 +198,8 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="dark:bg-gray-900 pt-2 pb-2 w-2/12 p-3">
-            <div className="p-6 bg-white border border-gray-900 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+            <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
               </p>

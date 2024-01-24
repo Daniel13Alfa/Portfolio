@@ -3,9 +3,9 @@ import imageIlutrative from "../assets/Images/image.jpg";
 
 const Content = () => {
   return (
-    <div className="hero min-h-full dark:bg-gray-900">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+    <div className="pt-20 pb-20 min-h-full bg-black">
+      <div className="text-center hero-content flex-col lg:flex-row-reverse">
+        <div className=" grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
             <div className="h-96 w-72">
               <img
@@ -63,8 +63,6 @@ const Content = () => {
           </p>
         </div>
       </div>
-
-      <div className="flex min-h-screen items-center justify-center bg-neutral-100 pt-50"></div>
     </div>
   );
 };
