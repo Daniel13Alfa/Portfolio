@@ -3,7 +3,7 @@ import imageIlutrative from "../assets/Images/image.jpg";
 
 const Content = () => {
   return (
-    <div className="pt-20 pb-20 min-h-full bg-black">
+    <div className="pt-5 pb-20 min-h-full bg-black">
       <div className="text-center hero-content flex-col lg:flex-row-reverse">
         <div className=" grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
