@@ -145,7 +145,7 @@ const Header = () => {
                   </IconButton>
                 </DrawerHeader>
                 <List>
-                  {["Home", "Experience", "Contact"].map((text, index) => (
+                  {["About Me", "Experience", "Contact"].map((text, index) => (
                     <ListItem key={text} disablePadding>
                       <ListItemButton>
                         <ListItemIcon>
