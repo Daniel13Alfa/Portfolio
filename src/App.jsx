@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="bg-black bg-center">
+    <div className="bg-black bg-center text-white">
       <Header />
       <div>
         <Content />
