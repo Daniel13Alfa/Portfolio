@@ -103,7 +103,7 @@ const Header = () => {
           <button
             data-collapse-toggle="navbar-multi-level"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden hover:text-blue-700 focus:outline-none focus:ring-2 "
+            className="inline-flex items-center w-10 h-10 justify-center text-sm  rounded-lg md:hidden hover:text-blue-700 focus:outline-none focus:ring-2 "
             aria-controls="navbar-multi-level"
             aria-expanded="false"
           >
@@ -144,17 +144,34 @@ const Header = () => {
                     )}
                   </IconButton>
                 </DrawerHeader>
-                <List>
-                  {["About Me", "Experience", "Contact"].map((text, index) => (
-                    <ListItem key={text} disablePadding>
-                      <ListItemButton>
-                        <ListItemIcon>
-                          {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                        </ListItemIcon>
-                        <ListItemText primary={text} />
-                      </ListItemButton>
-                    </ListItem>
-                  ))}
+                <List className="bg-white">
+                  <ul className="font-medium ">
+                    <li>
+                      <Link
+                        className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 text-black bg-white  md:hover:bg-transparent md:border-0 md:p-0"
+                        to={"/"}
+                      >
+                        About Me
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link
+                        className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 text-black bg-white  md:hover:bg-transparent md:border-0 md:p-0"
+                        to={"/experience"}
+                      >
+                        Experience
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 text-black bg-white  md:hover:bg-transparent md:border-0 md:p-0"
+                        to={"/contact"}
+                      >
+                        Contact
+                      </Link>
+                    </li>
+                  </ul>
                 </List>
               </Drawer>
             </Box>
