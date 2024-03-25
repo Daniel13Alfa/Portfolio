@@ -1,9 +1,6 @@
-import { faStarAndCrescent } from "@fortawesome/free-solid-svg-icons";
+import { faStarAndCrescent, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import imageIlutrative from "../assets/Images/image.jpg";
 import { Link } from "react-router-dom";
-
-//here
 import * as React from "react";
 import { styled, useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
@@ -16,12 +13,6 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
 
 const drawerWidth = 240;
 
@@ -160,6 +151,7 @@ const Header = () => {
                       <Link
                         className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 text-black bg-white  md:hover:bg-transparent md:border-0 md:p-0"
                         to={"/experience"}
+                        onClick={handleDrawerClose}
                       >
                         Experience
                       </Link>
@@ -168,6 +160,7 @@ const Header = () => {
                       <Link
                         className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 text-black bg-white  md:hover:bg-transparent md:border-0 md:p-0"
                         to={"/contact"}
+                        onClick={handleDrawerClose}
                       >
                         Contact
                       </Link>
