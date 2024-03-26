@@ -21,8 +21,8 @@ const Skills = () => {
     <div className="bg-black">
       <p className="text-center text-5xl">SKILLS</p>
       <div className="CardInfo w-12/12 bg-black mt-8 rounded-xl">
-        <div className=" pr-5  grid grid-cols-3 md:grid-cols-4 lg:grid-cols-7">
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+        <div className="justify-center pr-5  grid grid-cols-3 md:grid-cols-4 lg:grid-cols-7">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faJava} />
@@ -32,7 +32,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faJs} />
@@ -42,7 +42,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faPython} />
@@ -52,7 +52,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">C++</p>
               <h5 className="text-center mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
@@ -60,7 +60,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faReact} />
@@ -70,7 +70,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faCss3Alt} />
@@ -80,7 +80,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faHtml5} />
@@ -90,7 +90,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faAngular} />
@@ -100,7 +100,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faNode} />
@@ -110,7 +110,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
@@ -120,7 +120,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
@@ -130,7 +130,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
@@ -140,7 +140,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faGithub} />
@@ -150,7 +150,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faGitlab} />
@@ -160,7 +160,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faJira} />
@@ -170,7 +170,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
@@ -180,7 +180,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
@@ -190,7 +190,7 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-          <div className="bg-black pt-2 pb-2 w-2/12 p-3">
+          <div>
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
                 <FontAwesomeIcon icon={faDatabase} />
