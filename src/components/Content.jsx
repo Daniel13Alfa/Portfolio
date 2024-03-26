@@ -54,7 +54,7 @@ const Content = () => {
         </div>
         <div>
           <h1 className="text-5xl font-bold ">Hi I Am A Software Engineer</h1>
-          <p className="py-6">
+          <p className="py-6 text-justify">
             Welcome to my web page, my name is Daniel Alfaro Alfaro. I am
             software developer, here you can reed someting about my experience,
             skills, etc.

@@ -19,7 +19,7 @@ function App() {
       <br></br>
       <div className="w-full flex justify-center items-center">
         <div className="  w-9/12 pt-2 pb-2">
-          <h1 className="text-center">
+          <h1 className="text-justify">
             Using the tools and knowledge required for my profession, with the
             purpose of helping companies to reach their goals and meet the
             requirements necessary. By contributing my skills as well as
