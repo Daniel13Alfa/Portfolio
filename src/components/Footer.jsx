@@ -84,7 +84,9 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-        <p>Copyright © 2023 - All right reserved by Daniel Alfaro</p>
+        <p className="text-white">
+          Copyright © 2023 - All right reserved by Daniel Alfaro
+        </p>
       </nav>
     </footer>
   );
