@@ -21,7 +21,7 @@ const Skills = () => {
     <div className="bg-black">
       <p className="text-center text-5xl">SKILLS</p>
       <div className="CardInfo w-12/12 bg-black mt-8 rounded-xl">
-        <div className="flex justify-between items-center pl-10 pr-10">
+        <div className="pl-5 pr-5  grid grid-cols-3 md:grid-cols-4 lg:grid-cols-7">
           <div className="bg-black pt-2 pb-2 w-2/12 p-3">
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
@@ -80,10 +80,6 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="CardInfo w-12/12 bg-black mt-8 rounded-xl">
-        <div className="flex justify-between items-center pl-10 pr-10">
           <div className="bg-black pt-2 pb-2 w-2/12 p-3">
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
@@ -144,10 +140,6 @@ const Skills = () => {
               </h5>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="CardInfo w-12/12 bg-black mt-8 rounded-xl">
-        <div className="flex justify-between items-center pl-10 pr-10">
           <div className="bg-black pt-2 pb-2 w-2/12 p-3">
             <div className="p-6 bg-white border border-black rounded-lg shadow dark:bg-black dark:border-black">
               <p className="text-center text-5xl">
