@@ -136,10 +136,10 @@ const Header = () => {
                   </IconButton>
                 </DrawerHeader>
                 <List className="bg-white">
-                  <ul className="font-medium">
+                  <ul className="font-medium text-lg">
                     <li>
                       <Link
-                        className="text-lg block py-2 pl-3 pr-4 rounded hover:bg-gray-100 text-black bg-white  md:hover:bg-transparent md:border-0 md:p-0"
+                        className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 text-black bg-white  md:hover:bg-transparent md:border-0 md:p-0"
                         to={"/"}
                         onClick={handleDrawerClose}
                       >
@@ -149,7 +149,7 @@ const Header = () => {
 
                     <li>
                       <Link
-                        className="text-base block py-2 pl-3 pr-4 rounded hover:bg-gray-100 text-black bg-white  md:hover:bg-transparent md:border-0 md:p-0"
+                        className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 text-black bg-white  md:hover:bg-transparent md:border-0 md:p-0"
                         to={"/experience"}
                         onClick={handleDrawerClose}
                       >
