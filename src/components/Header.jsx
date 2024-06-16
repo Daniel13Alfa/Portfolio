@@ -165,6 +165,15 @@ const Header = () => {
                         Contact
                       </Link>
                     </li>
+                    <li>
+                      <Link
+                        className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 text-black bg-white  md:hover:bg-transparent md:border-0 md:p-0"
+                        to={"/projects"}
+                        onClick={handleDrawerClose}
+                      >
+                        Projects
+                      </Link>
+                    </li>
                   </ul>
                 </List>
               </Drawer>
@@ -196,6 +205,14 @@ const Header = () => {
                   to={"/contact"}
                 >
                   CONTACT
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  to={"/projects"}
+                >
+                  PROJECTS
                 </Link>
               </li>
             </ul>
