@@ -83,7 +83,7 @@ const Header = () => {
   return (
     <div>
       <nav className="border-gray-200 bg-black pb-10">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-9 pt-4">
+        <div className="flex flex-wrap items-center justify-between mx-9 pt-4">
           <Link className="flex items-center" to={"/"}>
             <FontAwesomeIcon
               icon={faStarAndCrescent}
