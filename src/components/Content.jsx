@@ -10,9 +10,9 @@ const Content = () => {
           src="https://w0.peakpx.com/wallpaper/988/361/HD-wallpaper-landscape-city-vertical-sky-clouds-sunlight-dark-palm-trees-urban-street-lantern-blue-orange.jpg"
           width="300"
         />
-        <div className="pr-20">
-          <h1 className="text-5xl font-bold">Hi I Am A Software Engineer</h1>
-          <p className="py-6 text-justify">
+        <div className="text-center w-10/12">
+          <h1 className="text-5xl font-bold">Hi, I Am A Software Engineer</h1>
+          <p className="py-6">
             Welcome to my web page, my name is Daniel Alfaro Alfaro. I am
             software developer, here you can reed someting about my experience,
             skills, etc.
