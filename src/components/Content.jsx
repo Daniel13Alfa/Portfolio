@@ -3,6 +3,7 @@ import imageIlutrative from "../assets/Images/image.jpg";
 import { Button } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
 import resume from "../assets/Docs/resume.pdf";
+import imagenD from "./daniel.jpg";
 
 const Content = () => {
   return (
