@@ -31,11 +31,6 @@ function App() {
           </h1>
         </div>
       </div>
-      <button>
-        <a href={resume} download="Resume Daniel Alfaro">
-          Download
-        </a>
-      </button>
       <br></br>
       <br></br>
       <div>
