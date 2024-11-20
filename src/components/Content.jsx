@@ -3,7 +3,6 @@ import imageIlutrative from "../assets/Images/image.jpg";
 import { Button } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
 import resume from "../assets/Docs/resume.pdf";
-import dany from "../assets/images/daniel.jpg";
 
 const Content = () => {
   return (
@@ -11,7 +10,6 @@ const Content = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           className="max-w-sm rounded-lg shadow-2xl"
-          src={dany}
           alt="Logo"
           width="500"
         />
