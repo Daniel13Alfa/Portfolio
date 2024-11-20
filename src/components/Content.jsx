@@ -12,6 +12,7 @@ const Content = () => {
         <img
           className="max-w-sm rounded-lg shadow-2xl"
           alt="Logo"
+          src={imagenD}
           width="500"
         />
         <div className=" text-center w-10/12">
