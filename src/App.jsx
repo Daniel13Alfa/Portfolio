@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
 import Skills from "./components/Skills";
+import resume from "./assets/Docs/resume.pdf";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -30,6 +31,11 @@ function App() {
           </h1>
         </div>
       </div>
+      <button>
+        <a href={resume} download="Resume Daniel Alfaro">
+          Download
+        </a>
+      </button>
       <br></br>
       <br></br>
       <div>

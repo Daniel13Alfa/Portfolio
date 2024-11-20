@@ -1,5 +1,8 @@
 import React from "react";
 import imageIlutrative from "../assets/Images/image.jpg";
+import { Button } from "@mui/material";
+import DownloadIcon from "@mui/icons-material/Download";
+import resume from "../assets/Docs/resume.pdf";
 
 const Content = () => {
   return (
@@ -10,13 +13,42 @@ const Content = () => {
           src="https://w0.peakpx.com/wallpaper/988/361/HD-wallpaper-landscape-city-vertical-sky-clouds-sunlight-dark-palm-trees-urban-street-lantern-blue-orange.jpg"
           width="300"
         />
-        <div className="text-center w-10/12">
-          <h1 className="text-5xl font-bold">Hi, I Am A Software Engineer</h1>
+        <div className=" text-center w-10/12">
+          <div className="text-5xl flex justify-center">
+            <h2 className="font-bold">
+              Hi, my name is{" "}
+              <font className="text-amber-700 uppercase">Daniel alfaro</font>
+            </h2>
+          </div>
+
           <p className="py-6">
             Welcome to my web page, my name is Daniel Alfaro Alfaro. I am
             software developer, here you can reed someting about my experience,
             skills, etc.
           </p>
+          <div className="w-12/12 m-1 mb-3 flex">
+            <div className="w-6/12 flex justify-end pr-2">
+              <Button
+                className="pr-2"
+                color="warning"
+                variant="outlined"
+                endIcon={<DownloadIcon />}
+              >
+                <a href={resume} download="Resume Daniel Alfaro">
+                  Resume
+                </a>
+              </Button>
+            </div>
+            <div className="w-6/12 flex justify-start">
+              <Button
+                color="warning"
+                variant="outlined"
+                startIcon={<DownloadIcon />}
+              >
+                Cover Letter
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
