@@ -16,11 +16,20 @@ function App() {
       <div>
         <Content />
       </div>
-      <p className="text-center text-5xl">OBJETIVE</p>
-      <br></br>
       <div className="w-full flex justify-center items-center">
-        <div className="  w-9/12 pt-2 pb-2">
+        <div className="w-5/12 md:w-32 lg:w-48 pt-2 pb-2 flex">
+          <div className="w-16 md:w-32 lg:w-48 justify-start flex ">
+            <p>Nombre: </p>
+          </div>
+          <div className="pl-3 w-18 md:w-32 lg:w-48 ">
+            <p>Daniel Alfaro ALfaro </p>
+          </div>
+        </div>
+
+        <div className="w-5/12 md:w-32 lg:w-48 pt-2 pb-2 justify-center flex">
           <h1 className="text-justify">
+            <p className="text-center text-5xl">OBJETIVE</p>
+            <br></br>
             Using the tools and knowledge required for my profession, with the
             purpose of helping companies to reach their goals and meet the
             requirements necessary. By contributing my skills as well as
