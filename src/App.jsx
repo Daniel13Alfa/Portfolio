@@ -26,7 +26,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-5/12 md:w-32 lg:w-48 pt-2 pb-2 justify-center flex">
+        <div className="w-5/12 md:w-32 lg:w-48 pt-2 pb-2">
           <h1 className="text-justify">
             <p className="text-center text-5xl">OBJETIVE</p>
             <br></br>
