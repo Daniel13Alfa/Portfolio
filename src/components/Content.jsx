@@ -24,9 +24,8 @@ const Content = () => {
           </div>
 
           <p className="py-6">
-            Welcome to my web page, my name is Daniel Alfaro Alfaro. I am
-            software developer, here you can reed someting about my experience,
-            skills, etc.
+            Welcome to my web page, I am software developer, here you can reed
+            someting about my experience, skills, etc.
           </p>
           <div className="w-12/12 m-1 mb-3 flex">
             <div className="w-6/12 flex justify-end pr-2">
