@@ -22,7 +22,7 @@ const Content = () => {
               <font className="text-amber-700 uppercase">Daniel alfaro</font>
             </h2>
           </div>
-          <div className="justify-items-center">
+          <div className="justify-items-center text-center">
             <p className="w-10/12 py-6 flex text-justify">
               Welcome to My Web Page! I am a software developer with a passion
               for creating innovative solutions and improving the digital
