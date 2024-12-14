@@ -15,7 +15,7 @@ const Content = () => {
           src={imagenD}
           width="500"
         />
-        <div className=" text-center w-10/12">
+        <div className=" text-center w-12/12">
           <div className="text-5xl flex justify-center">
             <h2 className="font-bold">
               Hi, my name is{" "}
@@ -52,7 +52,7 @@ const Content = () => {
             </div>
           </div>
           <div className="w-12/12 m-1 mb-3 flex">
-            <div className="w-6/12 flex justify-end pr-2">
+            <div className="w-60 md:w-12 lg:w-18 flex justify-end pr-2">
               <Button
                 className="pr-2"
                 color="warning"
@@ -64,7 +64,7 @@ const Content = () => {
                 </a>
               </Button>
             </div>
-            <div className="w-6/12 flex justify-start">
+            <div className="w-60 md:w-12 lg:w-18 flex justify-start">
               <Button
                 color="warning"
                 variant="outlined"
