@@ -52,7 +52,7 @@ const Content = () => {
             </div>
           </div>
           <div className="w-12/12 m-1 mb-3 flex">
-            <div className="w-60 md:w-12 lg:w-18 flex justify-end pr-2">
+            <div className="w-40 md:w-12 lg:w-18 flex justify-end pr-2">
               <Button
                 className="pr-2"
                 color="warning"
@@ -64,7 +64,7 @@ const Content = () => {
                 </a>
               </Button>
             </div>
-            <div className="w-60 md:w-12 lg:w-18 flex justify-start">
+            <div className="w-40 md:w-12 lg:w-18 flex justify-start">
               <Button
                 color="warning"
                 variant="outlined"
