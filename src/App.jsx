@@ -18,25 +18,20 @@ function App() {
       </div>
 
       <div className="w-full flex justify-center items-center">
-        <div className="w-5/12 pt-2 pb-2 flex">
-          <div className="w-16 md:w-32 lg:w-48 justify-start flex ">
-            <p>Nombre: </p>
-          </div>
-          <div className="pl-3 w-16 md:w-32 lg:w-48 ">
-            <p>Daniel Alfaro ALfaro </p>
-          </div>
-        </div>
-        <div className="w-5/12 pt-2 pb-2">
+        <div className="w-10/12 pt-2 pb-2">
           <h1 className="text-justify">
-            <p className="text-center text-5xl">OBJETIVE</p>
-            <br></br>
-            Using the tools and knowledge required for my profession, with the
-            purpose of helping companies to reach their goals and meet the
-            requirements necessary. By contributing my skills as well as
-            learning for others. In order, to find a successful, and mutual
-            agreement. In result, give me the opportunity to grow as a person
-            and as an engineer. (Looking for employment opportunities in
-            Software Development/Engineering).
+            <p className="text-center text-5xl">
+              My Goal as a Software Developer
+            </p>
+            <br></br>I strive to utilize the tools and knowledge required for my
+            profession to help companies achieve their goals and meet essential
+            requirements. By contributing my skills and expertise while learning
+            from others, I aim to foster a successful and mutually beneficial
+            collaboration. Ultimately, my goal is to create opportunities that
+            allow me to grow both personally and professionally as a software
+            engineer. Currently, I am seeking employment opportunities in
+            Software Development/Engineering where I can contribute to
+            meaningful projects and continue to develop my skills.
           </h1>
         </div>
       </div>

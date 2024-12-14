@@ -22,11 +22,35 @@ const Content = () => {
               <font className="text-amber-700 uppercase">Daniel alfaro</font>
             </h2>
           </div>
-
-          <p className="py-6">
-            Welcome to my web page, I am software developer, here you can reed
-            someting about my experience, skills, etc.
-          </p>
+          <div className="justify-items-center">
+            <p className="w-10/12 py-6 flex text-justify">
+              Welcome to My Web Page! I am a software developer with a passion
+              for creating innovative solutions and improving the digital
+              experience. On this page, you can learn more about my professional
+              journey, skills, and the projects I've worked on. Feel free to
+              explore the sections to understand my expertise, experience, and
+              the technologies I specialize in. Whether you're interested in my
+              coding proficiency, problem-solving abilities, or previous work, I
+              hope this page gives you a deeper insight into what I can offer.
+              Thank you for visiting!
+            </p>
+          </div>
+          <div className="w-11/12 pt-2 pb-2 flex justify-center">
+            <div className="w-31 md:w-35 lg:w-45 justify-items-start">
+              <p>Name: </p>
+              <p>Date of birth:</p>
+              <p>Address:</p>
+              <p>Email:</p>
+              <p>Phone:</p>
+            </div>
+            <div className="pl-3 w-35 md:w-35 lg:w-45 justify-items-start">
+              <p>Daniel Alfaro ALfaro </p>
+              <p>September/22/1995</p>
+              <p>Atlanta Georgia USA</p>
+              <p>alfaro-13@hotmail.com</p>
+              <p>404-596-2488</p>
+            </div>
+          </div>
           <div className="w-12/12 m-1 mb-3 flex">
             <div className="w-6/12 flex justify-end pr-2">
               <Button
