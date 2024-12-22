@@ -22,18 +22,20 @@ const Content = () => {
               <font className="text-amber-700 uppercase">Daniel alfaro</font>
             </h2>
           </div>
-          <div className="justify-items-center text-center">
-            <p className="w-10/12 py-6 flex text-justify">
-              Welcome to My Web Page! I am a software developer with a passion
-              for creating innovative solutions and improving the digital
-              experience. On this page, you can learn more about my professional
-              journey, skills, and the projects I've worked on. Feel free to
-              explore the sections to understand my expertise, experience, and
-              the technologies I specialize in. Whether you're interested in my
-              coding proficiency, problem-solving abilities, or previous work, I
-              hope this page gives you a deeper insight into what I can offer.
-              Thank you for visiting!
-            </p>
+          <div className="w-full flex justify-center items-center">
+            <div className="w-10/12 py-6 text-center">
+              <h1 className="text-justify">
+                Welcome to My Web Page! I am a software developer with a passion
+                for creating innovative solutions and improving the digital
+                experience. On this page, you can learn more about my
+                professional journey, skills, and the projects I've worked on.
+                Feel free to explore the sections to understand my expertise,
+                experience, and the technologies I specialize in. Whether you're
+                interested in my coding proficiency, problem-solving abilities,
+                or previous work, I hope this page gives you a deeper insight
+                into what I can offer. Thank you for visiting!
+              </h1>
+            </div>
           </div>
           <div className="w-11/12 pt-2 pb-2 flex justify-center">
             <div className="w-31 md:w-35 lg:w-45 justify-items-start">
