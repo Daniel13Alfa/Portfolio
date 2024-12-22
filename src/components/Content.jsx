@@ -54,26 +54,30 @@ const Content = () => {
             </div>
           </div>
           <div className="w-12/12 m-1 mb-3 flex">
-            <div className="w-40 md:w-40 lg:w-40 flex justify-end pr-2">
-              <Button
-                className="pr-2"
-                color="warning"
-                variant="outlined"
-                endIcon={<DownloadIcon />}
-              >
-                <a href={resume} download="Resume Daniel Alfaro">
-                  Resume
-                </a>
-              </Button>
+            <div className="w-6/12 justify-items-end">
+              <div className="w-30 md:w-60 lg:w-80 flex justify-end pr-2">
+                <Button
+                  className="pr-2"
+                  color="warning"
+                  variant="outlined"
+                  endIcon={<DownloadIcon />}
+                >
+                  <a href={resume} download="Resume Daniel Alfaro">
+                    Resume
+                  </a>
+                </Button>
+              </div>
             </div>
-            <div className="w-40 md:w-40 lg:w-40 flex justify-start">
-              <Button
-                color="warning"
-                variant="outlined"
-                startIcon={<DownloadIcon />}
-              >
-                Cover Letter
-              </Button>
+            <div className="w-6/12">
+              <div className="w-30 md:w-60 pl-2 lg:w-80 flex justify-start">
+                <Button
+                  color="warning"
+                  variant="outlined"
+                  startIcon={<DownloadIcon />}
+                >
+                  C Letter
+                </Button>
+              </div>
             </div>
           </div>
         </div>
