@@ -21,8 +21,9 @@ const Experience = () => {
           </h1>
         </div>
         <br></br>
-        <div className="justify-items-end">
-          <div className="w-6/12 rounded-xl  hover:bg-gray-950 first-line:hover:text-red-500">
+        <div className="flex">
+          <div className="w-6/12"></div>
+          <div className="w-6/12 rounded-xl  hover:bg-gray-950 first-line:hover:text-red-500 pr-4">
             <div className="justify-items-end">
               <div className="text-center text-3xl w-8/12 ">
                 <h1>SANTANDER</h1>
