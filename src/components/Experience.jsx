@@ -31,7 +31,7 @@ const Experience = () => {
             </div>
             <br></br>
             <div className="flex">
-              <div className="w-4/12 rounded-xl text-center">
+              <div className="w-4/12 rounded-xl pl-4">
                 <h1 className="text-xl">2024 - present</h1>
               </div>
               <div className="w-8/12 rounded-xl">
