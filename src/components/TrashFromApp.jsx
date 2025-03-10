@@ -115,6 +115,25 @@ function App() {
           </div>
         </nav>
       </div>
+
+      {/*here */}
+      <div className="flex h-screen">
+        {/* Static half */}
+        <div className="w-1/2 bg-gray-200 p-4">
+          <h1 className="text-2xl font-bold mb-4">Static Content</h1>
+          <p>This side remains fixed and does not scroll.</p>
+        </div>
+
+        {/* Scrollable half */}
+        <div className="w-1/2 p-4 overflow-y-auto">
+          <h1 className="text-2xl font-bold mb-4">Scrollable Content</h1>
+          {Array.from({ length: 50 }).map((_, index) => (
+            <p key={index} className="mb-2">
+              Scrollable line {index + 1}
+            </p>
+          ))}
+        </div>
+      </div>
     </>
   );
 }

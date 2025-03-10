@@ -46,8 +46,8 @@ const Content = () => {
               <p>Phone:</p>
             </div>
             <div className="pl-3 w-35 md:w-35 lg:w-45 justify-items-start">
-              <p>Daniel Alfaro ALfaro </p>
-              <p>September/22/1995</p>
+              <p>Daniel Alfaro Alfaro </p>
+              <p>09/22/1995</p>
               <p>Atlanta Georgia USA</p>
               <p>alfaro-13@hotmail.com</p>
               <p>404-596-2488</p>
