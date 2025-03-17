@@ -43,7 +43,7 @@ const Experience = () => {
               </div>
               <br></br>
               <div className="flex">
-                <div className="w-4/12 rounded-xl pl-4">
+                <div className="w-4/12 rounded-xl ">
                   <h1 className="text-lg">Nov 2023 - Jan 2025</h1>
                 </div>
                 <div className="w-8/12 rounded-xl">
@@ -77,7 +77,7 @@ const Experience = () => {
               </div>
               <br></br>
               <div className="flex">
-                <div className="w-4/12 rounded-xl pl-4">
+                <div className="w-4/12 rounded-xl ">
                   <h1 className="text-lg">Sep 2022 - Nov 2023</h1>
                 </div>
                 <div className="w-8/12 rounded-xl">
@@ -112,7 +112,7 @@ const Experience = () => {
               </div>
               <br></br>
               <div className="flex">
-                <div className="w-4/12 rounded-xl pl-4">
+                <div className="w-4/12 rounded-xl ">
                   <h1 className="text-lg">Jan 2020 - Sep 2022</h1>
                 </div>
                 <div className="w-8/12 rounded-xl">
