@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
 import Skills from "./components/Skills";
-import resume from "./assets/Docs/resume.pdf";
+
 function App() {
   const [count, setCount] = useState(0);
 
